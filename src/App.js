@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Privacy from "./Privacy";
 import "./App.css";
 
 const sections = [
@@ -19,7 +21,7 @@ const sections = [
   }
 ];
 
-const App = () => {
+const Home = () => {
   return (
     <div className="scroll-container">
       {sections.map((section, index) => (
@@ -35,6 +37,17 @@ const App = () => {
         </motion.div>
       ))}
     </div>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/jas-privacy" element={<Privacy />} />
+      </Routes>
+    </Router>
   );
 };
 
