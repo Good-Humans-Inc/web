@@ -105,7 +105,7 @@ const App = () => {
         <Route path="/jas-privacy" element={<Privacy />} />
         <Route path="/career" element={<Hire />} />
         <Route path="/career/cloud-infra" element={<JobRedirect url="https://thread-snow-256.notion.site/BabyMilu-Experienced-Cloud-Infra-Full-time-2fd2b144ff4c809dbea3e488e20bdbf4" />} />
-        <Route path="/career/junior-eng" element={<JobRedirect url="https://thread-snow-256.notion.site/BabyMilu-Experienced-Cloud-Infra-Full-time-2fd2b144ff4c809dbea3e488e20bdbf4" />} />
+        <Route path="/career/junior-eng" element={<JobRedirect url="https://thread-snow-256.notion.site/BabyMilu-Junior-Generalist-Engineer-Full-time-Part-time-2fd2b144ff4c802295c4c7b71f2b65a7?pvs=73" />} />
       </Routes>
     </Router>
   );
