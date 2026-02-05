@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Privacy from "./Privacy";
+import Hire from "./Hire";
+import JobRedirect from "./JobRedirect";
 import "./App.css";
 
 const BabyMiluPopup = ({ onClose }) => {
@@ -101,6 +103,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/jas-privacy" element={<Privacy />} />
+        <Route path="/hire" element={<Hire />} />
+        <Route path="/hire/cloud-infra" element={<JobRedirect url="https://thread-snow-256.notion.site/BabyMilu-Experienced-Cloud-Infra-Full-time-2fd2b144ff4c809dbea3e488e20bdbf4" />} />
+        <Route path="/hire/junior-eng" element={<JobRedirect url="https://thread-snow-256.notion.site/BabyMilu-Experienced-Cloud-Infra-Full-time-2fd2b144ff4c809dbea3e488e20bdbf4" />} />
       </Routes>
     </Router>
   );
