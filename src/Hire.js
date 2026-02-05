@@ -3,7 +3,7 @@ import React from "react";
 const Hire = () => {
   return (
     <div style={{ height: "100vh", overflowY: "auto" }}>
-      <div style={{ padding: "40px", maxWidth: "800px", margin: "0 auto", paddingBottom: "60px" }}>
+      <div style={{ padding: "40px 40px 180px 40px", maxWidth: "800px", margin: "0 auto" }}>
         <h1>We're Hiring</h1>
       
       <div style={{ marginTop: "20px", marginBottom: "40px", lineHeight: "1.5" }}>
