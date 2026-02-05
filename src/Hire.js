@@ -38,7 +38,7 @@ const Hire = () => {
         </div>
         <div>
           <a 
-            href="https://thread-snow-256.notion.site/BabyMilu-Experienced-Cloud-Infra-Full-time-2fd2b144ff4c809dbea3e488e20bdbf4"
+            href="https://thread-snow-256.notion.site/BabyMilu-Junior-Generalist-Engineer-Full-time-Part-time-2fd2b144ff4c802295c4c7b71f2b65a7"
             target="_blank"
             rel="noopener noreferrer"
             style={{ 
